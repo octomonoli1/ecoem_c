@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int x = 10;
+
+    printf("Antes del return\n");
+    return 0;
+
+    // Código muerto: nunca se ejecuta
+    printf("Esto nunca se mostrará\n");
+
+    return 1;
+}

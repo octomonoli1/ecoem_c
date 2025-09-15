@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    int contador = 1;
+    while (contador <= 10) {
+        printf("%d\n", contador);
+        //contador++; //Si eliminamos o comentamos esto hacemos que el bucle sea infinito
+    }
+    return 0;
+}
