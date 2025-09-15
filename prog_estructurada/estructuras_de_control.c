@@ -26,9 +26,13 @@ int main() {
 
     //ITERACION: Ejemplo que imprime los números del 1 al 10
     printf("Numeros del 1 al 10:\n");
-    for (int i = 1; i <= 10; i++) {
+    int i =1; 
+    while (i <= 10)
+    {
         printf("%d ", i);
+        i++;
     }
+    
     printf("\n");
 
     return 0;
